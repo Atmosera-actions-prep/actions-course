@@ -10,9 +10,9 @@ FROM myoung34/github-runner:latest
 #########################################
 # Variables #
 #########################################
-ARG orgname="gh-workflows"
+ARG orgname="YOUR ORG"
 # change this to repo name
-ARG reponame="actions-course"
+ARG reponame="YOUR REPO"
 
 #########################################
 # Label the instance and set maintainer #
