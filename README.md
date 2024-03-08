@@ -1,6 +1,6 @@
 # GitHub Actions Fundamentals
 
-1) Click the ![image](https://user-images.githubusercontent.com/6599001/222930573-bc56f641-4164-45f8-854a-e199eae63a12.png) button to create a personal repository based off of this repository.
+1) Click the ![image](https://github.com/new?template_name=actions-course&template_owner=Atmosera-actions-prep) button to create a personal repository based off of this repository.
 2) Name the repository actions-course-\<_your GitHub handle_\>.
 3) Set the visibility to internal.
 
