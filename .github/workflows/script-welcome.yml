@@ -27,4 +27,4 @@ jobs:
         env: 
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           message: ${{ inputs.welcome_message }}
-        run: chmod +x .github/scripts/sample.sh && .github/scripts/sample.sh
+        run: chmod +x .github/scripts/sample.sh 
