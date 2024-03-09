@@ -33,3 +33,8 @@ jobs:
       
     - name: user from dev
       run: echo "Hello ${{ vars.USER }}"
+
+    - name: passkey from dev
+      run: echo "Hello ${{ SECRETS.PASSKEY }}"
+
+      
