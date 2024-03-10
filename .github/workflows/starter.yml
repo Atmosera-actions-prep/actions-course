@@ -25,7 +25,7 @@ jobs:
 
       - name: Run a one-line script on workflow_dispatch event with an input
         if: github.event_name == 'workflow_dispatch'
-        run: echo {{ github.event.inputs.message }}
+        run: echo ${{ github.event.inputs.message }}
 
       - name: Run a multi-line script
         run: |
