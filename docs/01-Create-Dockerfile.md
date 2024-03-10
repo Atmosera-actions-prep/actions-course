@@ -2,11 +2,9 @@
 
 In this session, we are going to be deploying an application within a **Docker** container. Before we can deploy our app, we need to begin setting up a foundation to make changes to.
 
-## Exercise: Add Dockerfile
+## Exercise: Review Dockerfile
 
-1. Create a new branch called `Docker`
-1. In the root of the repository, create a new file named: `Dockerfile`
-1. Copy and paste the following code snippet into the new file:
+In this exercise, you will review the Dockerfile found in the root directory and make any necessary changes.
 
       > **:warning: NOTE:** Update the **orgname** and **reponame** variables to your organization and repository names.
 
@@ -84,5 +82,4 @@ In this session, we are going to be deploying an application within a **Docker**
       ENTRYPOINT ["/action/lib/entrypoint.sh"]
       ```
 
-1. Commit the file.
-1. Open a pull request and merge the `Docker` branch into the `main` branch.
+

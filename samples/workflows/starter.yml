@@ -2,7 +2,7 @@ name: sample action
 
 on:
   push:
-    branches: [ "main", "feature" ]
+    branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
   workflow_dispatch:
@@ -25,10 +25,7 @@ jobs:
 
       - name: Run a one-line script on workflow_dispatch event with an input
         if: github.event_name == 'workflow_dispatch'
-        uses: actions/github-script@v4
-        with:
-            script: |
-                echo ${{ github.event.inputs.message }}
+        run: echo ${{ github.event.inputs.message }}
 
       - name: Run a multi-line script
         run: |
